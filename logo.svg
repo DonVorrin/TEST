@@ -38,7 +38,7 @@
        transform="scale(1,-1)" />
   <!-- The below lines were added in a text editor to the image XML. This is the stored XSS attack. -->
   <script type="text/javascript">
-    alert("This is an example of a stored XSS attack in an SVG image")
+    alert(11)
   </script>
   </g>
 </svg>
